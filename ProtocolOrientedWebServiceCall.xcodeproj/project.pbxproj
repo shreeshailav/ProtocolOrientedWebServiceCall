@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE005F72230BE4BB00A18598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE005F71230BE4BB00A18598 /* AppDelegate.swift */; };
+		AE005F74230BE4BB00A18598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE005F73230BE4BB00A18598 /* ViewController.swift */; };
+		AE005F77230BE4BB00A18598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE005F75230BE4BB00A18598 /* Main.storyboard */; };
+		AE005F79230BE4BD00A18598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE005F78230BE4BD00A18598 /* Assets.xcassets */; };
+		AE005F7C230BE4BD00A18598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE005F7A230BE4BD00A18598 /* LaunchScreen.storyboard */; };
+		AE005F87230BE4BD00A18598 /* ProtocolOrientedWebServiceCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE005F86230BE4BD00A18598 /* ProtocolOrientedWebServiceCallTests.swift */; };
+		AE005F92230BE4BD00A18598 /* ProtocolOrientedWebServiceCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE005F91230BE4BD00A18598 /* ProtocolOrientedWebServiceCallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE005F83230BE4BD00A18598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE005F66230BE4BB00A18598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE005F6D230BE4BB00A18598;
+			remoteInfo = ProtocolOrientedWebServiceCall;
+		};
+		AE005F8E230BE4BD00A18598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE005F66230BE4BB00A18598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE005F6D230BE4BB00A18598;
+			remoteInfo = ProtocolOrientedWebServiceCall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE005F6E230BE4BB00A18598 /* ProtocolOrientedWebServiceCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolOrientedWebServiceCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE005F71230BE4BB00A18598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE005F73230BE4BB00A18598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE005F76230BE4BB00A18598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE005F78230BE4BD00A18598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE005F7B230BE4BD00A18598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE005F7D230BE4BD00A18598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE005F82230BE4BD00A18598 /* ProtocolOrientedWebServiceCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolOrientedWebServiceCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE005F86230BE4BD00A18598 /* ProtocolOrientedWebServiceCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolOrientedWebServiceCallTests.swift; sourceTree = "<group>"; };
+		AE005F88230BE4BD00A18598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE005F8D230BE4BD00A18598 /* ProtocolOrientedWebServiceCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolOrientedWebServiceCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE005F91230BE4BD00A18598 /* ProtocolOrientedWebServiceCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolOrientedWebServiceCallUITests.swift; sourceTree = "<group>"; };
+		AE005F93230BE4BD00A18598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE005F6B230BE4BB00A18598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE005F7F230BE4BD00A18598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE005F8A230BE4BD00A18598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE005F65230BE4BB00A18598 = {
+			isa = PBXGroup;
+			children = (
+				AE005F70230BE4BB00A18598 /* ProtocolOrientedWebServiceCall */,
+				AE005F85230BE4BD00A18598 /* ProtocolOrientedWebServiceCallTests */,
+				AE005F90230BE4BD00A18598 /* ProtocolOrientedWebServiceCallUITests */,
+				AE005F6F230BE4BB00A18598 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE005F6F230BE4BB00A18598 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE005F6E230BE4BB00A18598 /* ProtocolOrientedWebServiceCall.app */,
+				AE005F82230BE4BD00A18598 /* ProtocolOrientedWebServiceCallTests.xctest */,
+				AE005F8D230BE4BD00A18598 /* ProtocolOrientedWebServiceCallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE005F70230BE4BB00A18598 /* ProtocolOrientedWebServiceCall */ = {
+			isa = PBXGroup;
+			children = (
+				AE005F71230BE4BB00A18598 /* AppDelegate.swift */,
+				AE005F73230BE4BB00A18598 /* ViewController.swift */,
+				AE005F75230BE4BB00A18598 /* Main.storyboard */,
+				AE005F78230BE4BD00A18598 /* Assets.xcassets */,
+				AE005F7A230BE4BD00A18598 /* LaunchScreen.storyboard */,
+				AE005F7D230BE4BD00A18598 /* Info.plist */,
+			);
+			path = ProtocolOrientedWebServiceCall;
+			sourceTree = "<group>";
+		};
+		AE005F85230BE4BD00A18598 /* ProtocolOrientedWebServiceCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE005F86230BE4BD00A18598 /* ProtocolOrientedWebServiceCallTests.swift */,
+				AE005F88230BE4BD00A18598 /* Info.plist */,
+			);
+			path = ProtocolOrientedWebServiceCallTests;
+			sourceTree = "<group>";
+		};
+		AE005F90230BE4BD00A18598 /* ProtocolOrientedWebServiceCallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE005F91230BE4BD00A18598 /* ProtocolOrientedWebServiceCallUITests.swift */,
+				AE005F93230BE4BD00A18598 /* Info.plist */,
+			);
+			path = ProtocolOrientedWebServiceCallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE005F6D230BE4BB00A18598 /* ProtocolOrientedWebServiceCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE005F96230BE4BD00A18598 /* Build configuration list for PBXNativeTarget "ProtocolOrientedWebServiceCall" */;
+			buildPhases = (
+				AE005F6A230BE4BB00A18598 /* Sources */,
+				AE005F6B230BE4BB00A18598 /* Frameworks */,
+				AE005F6C230BE4BB00A18598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProtocolOrientedWebServiceCall;
+			productName = ProtocolOrientedWebServiceCall;
+			productReference = AE005F6E230BE4BB00A18598 /* ProtocolOrientedWebServiceCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE005F81230BE4BD00A18598 /* ProtocolOrientedWebServiceCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE005F99230BE4BD00A18598 /* Build configuration list for PBXNativeTarget "ProtocolOrientedWebServiceCallTests" */;
+			buildPhases = (
+				AE005F7E230BE4BD00A18598 /* Sources */,
+				AE005F7F230BE4BD00A18598 /* Frameworks */,
+				AE005F80230BE4BD00A18598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE005F84230BE4BD00A18598 /* PBXTargetDependency */,
+			);
+			name = ProtocolOrientedWebServiceCallTests;
+			productName = ProtocolOrientedWebServiceCallTests;
+			productReference = AE005F82230BE4BD00A18598 /* ProtocolOrientedWebServiceCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE005F8C230BE4BD00A18598 /* ProtocolOrientedWebServiceCallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE005F9C230BE4BD00A18598 /* Build configuration list for PBXNativeTarget "ProtocolOrientedWebServiceCallUITests" */;
+			buildPhases = (
+				AE005F89230BE4BD00A18598 /* Sources */,
+				AE005F8A230BE4BD00A18598 /* Frameworks */,
+				AE005F8B230BE4BD00A18598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE005F8F230BE4BD00A18598 /* PBXTargetDependency */,
+			);
+			name = ProtocolOrientedWebServiceCallUITests;
+			productName = ProtocolOrientedWebServiceCallUITests;
+			productReference = AE005F8D230BE4BD00A18598 /* ProtocolOrientedWebServiceCallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE005F66230BE4BB00A18598 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = hasher;
+				TargetAttributes = {
+					AE005F6D230BE4BB00A18598 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					AE005F81230BE4BD00A18598 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = AE005F6D230BE4BB00A18598;
+					};
+					AE005F8C230BE4BD00A18598 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = AE005F6D230BE4BB00A18598;
+					};
+				};
+			};
+			buildConfigurationList = AE005F69230BE4BB00A18598 /* Build configuration list for PBXProject "ProtocolOrientedWebServiceCall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE005F65230BE4BB00A18598;
+			productRefGroup = AE005F6F230BE4BB00A18598 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE005F6D230BE4BB00A18598 /* ProtocolOrientedWebServiceCall */,
+				AE005F81230BE4BD00A18598 /* ProtocolOrientedWebServiceCallTests */,
+				AE005F8C230BE4BD00A18598 /* ProtocolOrientedWebServiceCallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE005F6C230BE4BB00A18598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE005F7C230BE4BD00A18598 /* LaunchScreen.storyboard in Resources */,
+				AE005F79230BE4BD00A18598 /* Assets.xcassets in Resources */,
+				AE005F77230BE4BB00A18598 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE005F80230BE4BD00A18598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE005F8B230BE4BD00A18598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE005F6A230BE4BB00A18598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE005F74230BE4BB00A18598 /* ViewController.swift in Sources */,
+				AE005F72230BE4BB00A18598 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE005F7E230BE4BD00A18598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE005F87230BE4BD00A18598 /* ProtocolOrientedWebServiceCallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE005F89230BE4BD00A18598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE005F92230BE4BD00A18598 /* ProtocolOrientedWebServiceCallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE005F84230BE4BD00A18598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE005F6D230BE4BB00A18598 /* ProtocolOrientedWebServiceCall */;
+			targetProxy = AE005F83230BE4BD00A18598 /* PBXContainerItemProxy */;
+		};
+		AE005F8F230BE4BD00A18598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE005F6D230BE4BB00A18598 /* ProtocolOrientedWebServiceCall */;
+			targetProxy = AE005F8E230BE4BD00A18598 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE005F75230BE4BB00A18598 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE005F76230BE4BB00A18598 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE005F7A230BE4BD00A18598 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE005F7B230BE4BD00A18598 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE005F94230BE4BD00A18598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE005F95230BE4BD00A18598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE005F97230BE4BD00A18598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProtocolOrientedWebServiceCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreeshail.ProtocolOrientedWebServiceCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE005F98230BE4BD00A18598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProtocolOrientedWebServiceCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreeshail.ProtocolOrientedWebServiceCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE005F9A230BE4BD00A18598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProtocolOrientedWebServiceCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreeshail.ProtocolOrientedWebServiceCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtocolOrientedWebServiceCall.app/ProtocolOrientedWebServiceCall";
+			};
+			name = Debug;
+		};
+		AE005F9B230BE4BD00A18598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProtocolOrientedWebServiceCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreeshail.ProtocolOrientedWebServiceCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtocolOrientedWebServiceCall.app/ProtocolOrientedWebServiceCall";
+			};
+			name = Release;
+		};
+		AE005F9D230BE4BD00A18598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProtocolOrientedWebServiceCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreeshail.ProtocolOrientedWebServiceCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProtocolOrientedWebServiceCall;
+			};
+			name = Debug;
+		};
+		AE005F9E230BE4BD00A18598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProtocolOrientedWebServiceCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreeshail.ProtocolOrientedWebServiceCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProtocolOrientedWebServiceCall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE005F69230BE4BB00A18598 /* Build configuration list for PBXProject "ProtocolOrientedWebServiceCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE005F94230BE4BD00A18598 /* Debug */,
+				AE005F95230BE4BD00A18598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE005F96230BE4BD00A18598 /* Build configuration list for PBXNativeTarget "ProtocolOrientedWebServiceCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE005F97230BE4BD00A18598 /* Debug */,
+				AE005F98230BE4BD00A18598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE005F99230BE4BD00A18598 /* Build configuration list for PBXNativeTarget "ProtocolOrientedWebServiceCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE005F9A230BE4BD00A18598 /* Debug */,
+				AE005F9B230BE4BD00A18598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE005F9C230BE4BD00A18598 /* Build configuration list for PBXNativeTarget "ProtocolOrientedWebServiceCallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE005F9D230BE4BD00A18598 /* Debug */,
+				AE005F9E230BE4BD00A18598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE005F66230BE4BB00A18598 /* Project object */;
+}
