@@ -14,6 +14,12 @@
 		AE005F7C230BE4BD00A18598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE005F7A230BE4BD00A18598 /* LaunchScreen.storyboard */; };
 		AE005F87230BE4BD00A18598 /* ProtocolOrientedWebServiceCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE005F86230BE4BD00A18598 /* ProtocolOrientedWebServiceCallTests.swift */; };
 		AE005F92230BE4BD00A18598 /* ProtocolOrientedWebServiceCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE005F91230BE4BD00A18598 /* ProtocolOrientedWebServiceCallUITests.swift */; };
+		AE005FA1230BE4F700A18598 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE005FA0230BE4F700A18598 /* NetworkController.swift */; };
+		AE005FA4230BF53600A18598 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE005FA3230BF53600A18598 /* Question.swift */; };
+		AE005FA6230BF56E00A18598 /* Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE005FA5230BF56E00A18598 /* Serialization.swift */; };
+		AE005FA8230BF5A200A18598 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE005FA7230BF5A200A18598 /* User.swift */; };
+		AE005FAA230BF65500A18598 /* ApiResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE005FA9230BF65500A18598 /* ApiResource.swift */; };
+		AE005FAC230BF6B500A18598 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE005FAB230BF6B500A18598 /* NetworkRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		AE005F8D230BE4BD00A18598 /* ProtocolOrientedWebServiceCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolOrientedWebServiceCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE005F91230BE4BD00A18598 /* ProtocolOrientedWebServiceCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolOrientedWebServiceCallUITests.swift; sourceTree = "<group>"; };
 		AE005F93230BE4BD00A18598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE005FA0230BE4F700A18598 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		AE005FA3230BF53600A18598 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		AE005FA5230BF56E00A18598 /* Serialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serialization.swift; sourceTree = "<group>"; };
+		AE005FA7230BF5A200A18598 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AE005FA9230BF65500A18598 /* ApiResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResource.swift; sourceTree = "<group>"; };
+		AE005FAB230BF6B500A18598 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,15 @@
 		AE005F70230BE4BB00A18598 /* ProtocolOrientedWebServiceCall */ = {
 			isa = PBXGroup;
 			children = (
+				AE005FA2230BF52500A18598 /* Medel */,
+				AE005F9F230BE4CB00A18598 /* NetworkApi */,
 				AE005F71230BE4BB00A18598 /* AppDelegate.swift */,
 				AE005F73230BE4BB00A18598 /* ViewController.swift */,
 				AE005F75230BE4BB00A18598 /* Main.storyboard */,
 				AE005F78230BE4BD00A18598 /* Assets.xcassets */,
 				AE005F7A230BE4BD00A18598 /* LaunchScreen.storyboard */,
 				AE005F7D230BE4BD00A18598 /* Info.plist */,
+				AE005FA5230BF56E00A18598 /* Serialization.swift */,
 			);
 			path = ProtocolOrientedWebServiceCall;
 			sourceTree = "<group>";
@@ -123,6 +138,25 @@
 				AE005F93230BE4BD00A18598 /* Info.plist */,
 			);
 			path = ProtocolOrientedWebServiceCallUITests;
+			sourceTree = "<group>";
+		};
+		AE005F9F230BE4CB00A18598 /* NetworkApi */ = {
+			isa = PBXGroup;
+			children = (
+				AE005FA0230BE4F700A18598 /* NetworkController.swift */,
+				AE005FA9230BF65500A18598 /* ApiResource.swift */,
+				AE005FAB230BF6B500A18598 /* NetworkRequest.swift */,
+			);
+			path = NetworkApi;
+			sourceTree = "<group>";
+		};
+		AE005FA2230BF52500A18598 /* Medel */ = {
+			isa = PBXGroup;
+			children = (
+				AE005FA3230BF53600A18598 /* Question.swift */,
+				AE005FA7230BF5A200A18598 /* User.swift */,
+			);
+			path = Medel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +290,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE005FAA230BF65500A18598 /* ApiResource.swift in Sources */,
 				AE005F74230BE4BB00A18598 /* ViewController.swift in Sources */,
+				AE005FAC230BF6B500A18598 /* NetworkRequest.swift in Sources */,
+				AE005FA4230BF53600A18598 /* Question.swift in Sources */,
+				AE005FA8230BF5A200A18598 /* User.swift in Sources */,
 				AE005F72230BE4BB00A18598 /* AppDelegate.swift in Sources */,
+				AE005FA6230BF56E00A18598 /* Serialization.swift in Sources */,
+				AE005FA1230BE4F700A18598 /* NetworkController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
